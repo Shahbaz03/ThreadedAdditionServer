@@ -4,6 +4,12 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
+/**
+ * The Runnable class
+ * 
+ * @author Shahbaz.Alam
+ *
+ */
 public class AdditionRunnable implements Runnable {
 	
 	protected Socket socket = null;
@@ -26,10 +32,8 @@ public class AdditionRunnable implements Runnable {
 			}
 			out.println(addCalc.add());
 		} catch (IOException e) {
-			e.printStackTrace();
+			e.printStackTrace();//needs to have better exception handling
 		}
-		
-
 	}
 
 }

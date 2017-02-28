@@ -1,4 +1,9 @@
-
+/**
+ * Basic Calculator having add functionality.
+ * 
+ * @author Shahbaz.Alam
+ *
+ */
 public class AdditionCalculator {
 	private int num1;
 	private int num2;
